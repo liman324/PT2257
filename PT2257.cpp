@@ -7,7 +7,7 @@ PT2257::PT2257(){
 }
 
 void PT2257::setLeft(int left){
-        left = 79 - left;
+        left = 78 - left;
     int left10 = left / 10;
     int left01 = left - left10 * 10;
 
@@ -16,7 +16,7 @@ void PT2257::setLeft(int left){
 }
 
 void PT2257::setRight(int right){
-        right = 79 - right;
+        right = 78 - right;
     int right10 = right / 10;
     int right01 = right - right10 * 10;
 
